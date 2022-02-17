@@ -3,6 +3,12 @@
         <a class="active item" href="/">
             Image Storage
         </a>
+
+        <div class="right menu">
+            <a class="ui item" @click="login" href="#">
+                Login
+            </a>
+        </div>
     </div>
 </template>
 
