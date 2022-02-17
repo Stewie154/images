@@ -6,6 +6,9 @@ vue create *project name*
 # semantic ui docs
 https://semantic-ui.com/
 
+# imgur api docs
+https://apidocs.imgur.com/
+
 ## Project setup
 ```
 npm install
