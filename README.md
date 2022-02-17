@@ -1,5 +1,11 @@
 # images
 
+# created with:
+vue create *project name*
+
+# semantic ui docs
+https://semantic-ui.com/
+
 ## Project setup
 ```
 npm install
