@@ -5,7 +5,9 @@
         </a>
         <div class="right menu">
             <div v-if="isLoggedIn">
-
+                Galleries button 
+                upload button 
+                logout button 
             </div>
             <a v-else class="ui item" @click="login" href="#">
                 Login
