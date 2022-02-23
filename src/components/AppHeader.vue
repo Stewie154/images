@@ -4,10 +4,10 @@
             Image Storage
         </a>
         <div class="right menu">
-            <div v-if="isLoggedIn">
-                Galleries button 
-                upload button 
-                logout button 
+            <div v-if="isLoggedIn" class="horizontal">
+                <a class="item" href="">Galleries</a>
+                <a class="item" href="">Upload</a>
+                <a class="item" href="">Logout</a>
             </div>
             <a v-else class="ui item" @click="login" href="#">
                 Login
@@ -26,3 +26,9 @@
         methods: mapActions(['login'])
     }
 </script>
+
+<style scoped>
+    .horizontal {
+        display: flex;
+    }
+</style>
