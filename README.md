@@ -1,5 +1,7 @@
 # images
 
+note: login doesn't work from local host used ngrok to fix npm run serve and
+
 # created with:
 vue create *project name*
 
@@ -17,6 +19,9 @@ npm install
 ### Compiles and hot-reloads for development
 ```
 npm run serve
+ngrok http -region=eu 8080
+
+
 ```
 
 ### Compiles and minifies for production

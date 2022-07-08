@@ -1,5 +1,7 @@
 <template>
-    <div>Image List</div>
+    <div>Image List
+	</div>
+	
 </template>
 
 <script>
