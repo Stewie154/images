@@ -1,6 +1,6 @@
 <template>
     <div>
-		{{ allImages.length }}
+		<img v-for="image in allImages" :src="image.link" />
 	</div>
 	
 </template>
